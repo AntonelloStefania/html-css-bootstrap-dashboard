@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .right-main-container{
+    width: 90%;
+    display: flex;
+} */
+main{
+    padding-top: 65px;
+}
+
+/* HEADER */
+header{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    background-color: white;
+    /* padding: 10px 0; */
+    height: 65px;
+}
+
+/* .h-row{
+    padding: 5px 0;
+} */
+
+.h-logo{
+    padding-top: 5px;
+}
+
+.mobile-logo{
+    width:50px;
+    padding-bottom: 5px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/* .search-bar input{
+    height: 30px;
+    padding: 0px;
+} */
+
+.list-group a{
+    padding: 8px 0;
+    width: 50%;
+}
+/* SIDEBAR */
+.col-200{
+    width: 200px;
+}
+.sidebar{
+    background-color:blue;
+    height: 100%;
+}
+
+.sidebar-list, .sidebar-option{
+    background-color: rgb(64, 64, 211);
+    height: 100px;
+    margin: 15px 0;
+}
+
+/* RIGHT MAIN */
+.right-main{
+    background-color: blanchedalmond;
+}
+.col-80{
+    width: calc(100% - 200px);
+}
+/* UPPER NAVBAR */
+.upper-navbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(211, 133, 39);
+}
+.upper-row, .upper-container{
+    height: 100%;
+}
+.topic, .counter, .form-toggle{
+    border: 2px solid blue;
+}
+/* MIDDLE MAIN */
+
+.next-class, .todo, .faq, .users{
+    height: 200px;
+    border: 1px solid black;
+}
+
+.next-class{
+    height:500px ;
+}
+
+.todo, .faq{
+    height: 200px;
+}
+
+.users{
+    height: 650px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row h-row  align-items-center">
+                            <div class="col-1 col-lg-2 h-logo">
+                                <img src="./img/logo.svg" alt="" class="d-md-none d-sm-none d-lg-block">
+                                <img src="./img/mobile-logo.png" alt="" class="d-md-block d-sm-block  d-lg-none mobile-logo">
+                            </div>
+                            <div class="col-9 col-lg-8 h-search">
+                                <div class="form-group has-search">
+                                    <span class="fa fa-search form-control-feedback"></span>
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </div>
+                            <div class="col-2 h-icons">
+                                <div class="list-group list-group-horizontal">
+                                    <a href="#" class="list-group-item list-group-item-action bg-transparent border border-0 d-md-none d-sm-none d-lg-block" aria-current="true">
+                                        <i class="fa-solid fa-list">
+                                        </i>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action bg-transparent border border-0 d-md-none d-sm-none d-lg-block">
+                                        <i class="fa-solid fa-circle-question">
+                                        </i>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action bg-transparent border border-0 d-md-none d-sm-none d-lg-block">
+                                        <i class="fa-solid fa-ellipsis-vertical">
+                                        </i>
+                                    </a>
+                                    <a class="btn"  data-bs-toggle="dropdown" href="#" role="button" aria-controls="dropdown">
+                                        <i class="fa-solid fa-bell " style="color: #d69212;">
+                                        </i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Action</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- FINE HEADER -->
+        <!-- MAIN -->
+        <main>
+            <div class="container-fluid">            
+                <div class="row">
+                     <!-- SIDEBAR -->
+                    <div class="col-200 ">
+                        <div class="row sidebar flex-column justify-content-between">
+                            <div class="col-12">
+                                <div class="sidebar-list"></div>
+                            </div>
+                            <div class="col-12">
+                                <div class="sidebar-option"></div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- FINE SIDEBAR -->
+                     <!-- MAIN CENTRALE -->
+                    <div class="col-80 right-main">
+                        <div class="navbar-container">
+                            <div class="row">
+                                <div class="col-12 upper-navbar">
+                                    <div class="container-fluid upper-container">
+                                        <div class="row upper-row">
+                                            <div class="col-6 topic"></div>
+                                            <div class="col-3 counter"></div>
+                                            <div class="col-3 form-toggle"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row flex-column flex-md-row">
+                                <div class="col-12 col-lg-8">
+                                    <div class="row">
+                                        <div class="col-12 p-2 next-class"></div>
+                                        <div class="col-12 p-2 faq"></div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <div class="row">
+                                        <div class="col-12 p-2 todo"></div>
+                                        <div class="col-12 p-2 users"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FINE MAIN CENTRALE -->
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
