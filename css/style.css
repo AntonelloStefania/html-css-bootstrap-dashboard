@@ -65,12 +65,15 @@ header{
 .sidebar{
     background-color:blue;
     height: 100%;
+    position: fixed;
+    width: 200px;
 }
 
 .sidebar-list, .sidebar-option{
     background-color: rgb(64, 64, 211);
     height: 100px;
     margin: 15px 0;
+   
 }
 
 /* RIGHT MAIN */
