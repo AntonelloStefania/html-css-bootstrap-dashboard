@@ -25,13 +25,13 @@ header{
     padding: 5px 0;
 } */
 
-.h-logo{
+/* .h-logo{
     padding-top: 5px;
-}
+} */
 
 .mobile-logo{
     width:50px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .has-search .form-control {
@@ -85,7 +85,7 @@ header{
 
 /* RIGHT MAIN */
 .right-main{
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 .col-80{
     width: calc(100% - 200px);
@@ -109,18 +109,42 @@ header{
 /* MIDDLE MAIN */
 
 .next-class, .todo, .faq, .users{
-    height: 200px;
-    border: 1px solid black;
+    /* height: 200px; */
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 20px;
 }
 
 .next-class{
-    height:500px ;
+    /* height:500px ; */
 }
 
-.todo, .faq{
+.todo{
     height: 200px;
 }
 
 .users{
     height: 650px;
+}
+
+.fa-code{
+    background-color:#F26551 ;
+    padding: 7px 5px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.table-border{
+    /* border: 1px solid rgb(151, 151, 151); */
+}
+
+.font-size-table{
+    font-size: 15px;
+}
+
+.table-header{
+    margin-bottom:0 ;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: #F7F7F7;
+    border-top: 1px solid rgb(151, 151, 151) ;
 }
