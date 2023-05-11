@@ -16,11 +16,18 @@ header{
     position: fixed;
     z-index: 4;
     width: 100%;
-    background-color: white;
+    background-color: #F8F9FB;
     /* padding: 10px 0; */
     height: 65px;
 }
 
+.h-logo, .h-icons{
+    background-color: white;
+}
+
+.h-search{
+    background-color: #E5E5E5;
+}
 /* .h-row{
     padding: 5px 0;
 } */
@@ -85,7 +92,7 @@ header{
 
 /* RIGHT MAIN */
 .right-main{
-    /* background-color: blanchedalmond; */
+    background-color: #F8F9FA;
 }
 .col-80{
     width: calc(100% - 200px);
@@ -112,18 +119,7 @@ header{
     /* height: 200px; */
     border: 1px solid rgb(151, 151, 151);
     border-radius: 20px;
-}
-
-.next-class{
-    /* height:500px ; */
-}
-
-.todo{
-    height: 200px;
-}
-
-.users{
-    height: 650px;
+    background-color: white;
 }
 
 .fa-code{
@@ -147,4 +143,12 @@ header{
     padding-left: 10px;
     background-color: #F7F7F7;
     border-top: 1px solid rgb(151, 151, 151) ;
+}
+
+.todo-border{
+    border-radius: 50px;
+}
+
+#stats-img{
+    max-width: 100%;
 }

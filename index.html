@@ -21,10 +21,10 @@
                                 <img src="./img/logo.svg" alt="" class=" d-none d-lg-block p-2">
                                 <img src="./img/mobile-logo.png" alt="" class="d-md-block d-block  d-lg-none mobile-logo p-0">
                             </div>
-                            <div class="col-10 col-lg-8 h-search">
+                            <div class="col-10 col-lg-8 ">
                                 <div class="form-group has-search">
-                                    <span class="fa fa-search form-control-feedback"></span>
-                                    <input type="text" class="form-control" placeholder="Search">
+                                    <span class="fa fa-search form-control-feedback "></span>
+                                    <input type="text" class="form-control h-search" placeholder="Search">
                                 </div>
                             </div>
                             <div class="col-1 col-lg-2 h-icons">
@@ -74,24 +74,24 @@
                             <div class="col-12">
                                 <div class="sidebar-list">
                                     <ul class="list-group">
-                                        <div class="list-group-item bg-transparent border border-0 text-white display-inherit">
+                                        <li class="list-group-item bg-transparent border border-0 text-white display-inherit">
                                           <span class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                                             <i class="fa-solid fa-house-chimney" style="color: #ffffff;"></i>
                                           </span>
                                           <span class="d-md-none d-lg-inline-block d-sm-none">Home</span> 
-                                        </div>
-                                        <div class="list-group-item bg-transparent border border-0 text-white display-inherit">
+                                        </li>
+                                        <li class="list-group-item bg-transparent border border-0 text-white display-inherit">
                                           <div class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2 ">
                                             <i class="fa-solid fa-chart-simple"></i>
                                           </div>
                                           <span class="d-md-none d-lg-inline-block d-sm-none">Stats</span> 
-                                        </div>
-                                        <div class="list-group-item bg-transparent border border-0 text-white display-inherit">
+                                        </li>
+                                        <li class="list-group-item bg-transparent border border-0 text-white display-inherit">
                                           <div class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                                             <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
                                           </div>
                                           <span class="d-md-none d-lg-inline-block d-sm-none">Signals</span> 
-                                        </div>
+                                        </li>
                                       </ul>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                                             <i class="fa-sharp fa-solid fa-gear" style="color: #ffffff;"></i>
                                         </div>
                                         <span class="d-md-none d-lg-inline-block d-sm-none">Admin</span> 
-                                      </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -141,6 +141,8 @@
                                                     <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                                         <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                                                     </button>
+                                                    <button class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>
@@ -157,11 +159,11 @@
                                             <h3 class="table-header border-bottom rounded-top border-dark-subtle row">Prossime classi</h3>
                                             <table class="table table-hover ">
                                                 <thead>
-                                                    <tr>                                          <td scope="col">Nome</td>
-                                                        <td scope="col" class="text-end">Data inizio</td>
-                                                        <td scope="col" class="text-end">ROI</td>
-                                                        <td scope="col" class="text-end">Stato</td>
-                                                        <td scope="col" class="text-end pe-4">Azioni</td>
+                                                    <tr>                                          <td>Nome</td>
+                                                        <td class="text-end">Data inizio</td>
+                                                        <td class="text-end">ROI</td>
+                                                        <td class="text-end">Stato</td>
+                                                        <td class="text-end pe-4">Azioni</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="font-size-table">
@@ -201,6 +203,7 @@
                                                             </button>
                                                         </td>
                                                     </tr>
+                                                    <tr>
                                                         <td>
                                                             <i class="fa-solid fa-code" style="color: #ffffff;"></i> Classe 77
                                                         </td>
@@ -354,8 +357,72 @@
                                 </div>
                                 <div class="col-12 col-lg-4">
                                     <div class="row">
-                                        <div class="col-12 col-lg-11 offset-lg-1 my-3 todo"></div>
-                                        <div class="col-12 col-lg-11 offset-lg-1 my-3 users"></div>
+                                        <div class="col-12 col-lg-11 offset-lg-1 border-top-0 my-3 todo">
+                                            <h3 class="accordion-header table-header border-bottom rounded-top border-dark-subtle row mb-3">Todo</h3>
+                                            <table class="table border todo-border card rounded mt-20px">
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                      <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                                                      </div>
+                                                    </td>
+                                                    <td class="w-100">Kickoff nuove classi</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                      </div>
+                                                    </td>
+                                                    <td>Lezione su Bootstrap 5 in classe #75</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>
+                                                      <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                      </div>
+                                                    </td>
+                                                    <td>Controllare username github studenti</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                        <div class="col-12 col-lg-11 offset-lg-1 d-flex align-items-center my-3 users">
+                                            <div class="row justify-content-center">
+                                                <div class="col-11 col-lg-10 border border-secondary-subtle rounded my-3">
+                                                    <img src="./img/stats.jpeg" alt="stats" id="stats-img" class="my-3">
+                                                    <h3 class="ps-2 my-3">Utenti attivi</h3>
+                                                    <table class="table">
+                                                        <thead>
+                                                          <tr>
+                                                            <td scope="col">Lista degli utenti attivi in piattaforma nell'ultimo mese</td>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <td scope="row">Gennaio: 1200</td>
+                                                            
+                                                          </tr>
+                                                          <tr>
+                                                            <td scope="row">Febbraio: 800</td>
+                                                            
+                                                          </tr>
+                                                          <tr>
+                                                            <td scope="row">Marzo: 1500</td>
+                                                            
+                                                          </tr>
+                                                          <tr>
+                                                            <td scope="row" class="border-0">
+                                                                <a href="#">Visualizza report approfondito</a>
+                                                            </td>
+                                                            
+                                                          </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -365,7 +432,5 @@
                 </div>
             </div>
         </main>
-        <button class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        </button>
     </body>
 </html>
