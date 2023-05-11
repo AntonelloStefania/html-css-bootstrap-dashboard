@@ -70,11 +70,13 @@ header{
     margin: 15px 0;
 }
 
-
 .display-inherit{
     display: inherit;
 }
 
+.sidebar-list a:hover, .dropdown-list:hover{
+    background-color: #6e6e6e71;
+}
 
 /* RIGHT MAIN */
 .right-main{
@@ -119,15 +121,12 @@ header{
     background-color: white;
 }
 
-
 .fa-code{
     background-color:#F26551 ;
     padding: 7px 5px;
     border-radius: 50%;
     font-size: 15px;
 }
-
-
 
 .font-size-table{
     font-size: 15px;
