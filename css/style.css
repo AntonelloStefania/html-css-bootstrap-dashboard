@@ -47,12 +47,16 @@ header{
 
 .list-group a{
     padding: 8px 0;
-    width: 50%;
 }
 /* SIDEBAR */
 .col-200{
     width: 200px;
 }
+
+.col-200 a{
+    text-decoration: none;
+}
+
 .sidebar{
     background-image: url(../img/sidebar-bg.png);
     height: 100%;
@@ -66,18 +70,11 @@ header{
     margin: 15px 0;
 }
 
-.sidebar-option{
-    padding-left: 10px;
-}
 
 .display-inherit{
     display: inherit;
 }
 
-.sidebar-list li, .sidebar-option{
-    padding:0;
-    margin:10px 0
-}
 
 /* RIGHT MAIN */
 .right-main{
@@ -113,6 +110,7 @@ header{
 .white{
     color: #fff;
 }
+
 /* MIDDLE MAIN */
 
 .next-class, .todo, .faq, .users{
@@ -167,7 +165,7 @@ header{
         padding-left: 10px;
         
     }
-    .sidebar-list li, .sidebar-option{
+    .sidebar-list li{
         padding-left:20px;
         margin:10px 0
     }
