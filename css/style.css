@@ -73,7 +73,7 @@ header{
     background-image: url(../img/sidebar-bg.png);
     height: 100%;
     position: fixed;
-    width: 200px;
+    width: 50px;
     background-color: #051E34;
 }
 
@@ -90,12 +90,18 @@ header{
     display: inherit;
 }
 
+.sidebar-list li, .sidebar-option{
+    padding:0;
+    margin:10px 0
+}
+
 /* RIGHT MAIN */
 .right-main{
     background-color: #F8F9FA;
 }
 .col-80{
-    width: calc(100% - 200px);
+    width: 100%;
+    padding-left: 60px;
 }
 /* UPPER NAVBAR */
 .upper-navbar{
@@ -113,6 +119,17 @@ header{
     border-radius: 50%;
     font-size: 11px;
 }
+.add{
+    border-radius: 8px;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    position:relative;
+}
+
+.white{
+    color: #fff;
+}
 /* MIDDLE MAIN */
 
 .next-class, .todo, .faq, .users{
@@ -122,6 +139,7 @@ header{
     background-color: white;
 }
 
+
 .fa-code{
     background-color:#F26551 ;
     padding: 7px 5px;
@@ -129,9 +147,7 @@ header{
     font-size: 15px;
 }
 
-.table-border{
-    /* border: 1px solid rgb(151, 151, 151); */
-}
+
 
 .font-size-table{
     font-size: 15px;
@@ -151,4 +167,26 @@ header{
 
 #stats-img{
     max-width: 100%;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:768px){
+    .display-none{
+        display: none;
+    }
+}
+
+@media screen and (min-width:991px){
+    .sidebar{
+        width:200px
+    }
+    .col-80{
+        width: calc(100% - 200px);
+        padding-left: 10px;
+        
+    }
+    .sidebar-list li, .sidebar-option{
+        padding-left:20px;
+        margin:10px 0
+    }
 }
