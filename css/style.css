@@ -116,8 +116,8 @@ header{
 /* MIDDLE MAIN */
 
 .next-class, .todo, .faq, .users{
-    border: 1px solid rgb(151, 151, 151);
-    border-radius: 20px;
+    /* border: 1px solid rgb(151, 151, 151);
+    border-radius: 20px; */
     background-color: white;
 }
 
@@ -137,7 +137,7 @@ header{
     padding-bottom: 15px;
     padding-left: 10px;
     background-color: #F7F7F7;
-    border-top: 1px solid rgb(151, 151, 151) ;
+    /* border-top: 1px solid rgb(151, 151, 151) ; */
 }
 
 .todo-border{
